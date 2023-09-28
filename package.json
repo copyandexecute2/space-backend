@@ -1,0 +1,25 @@
+{
+  "name": "space-api",
+  "version": "0.0.1",
+  "description": "It's the Space Client api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "restfull",
+    "api"
+  ],
+  "author": "Theblockcraft",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
